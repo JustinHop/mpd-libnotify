@@ -1,4 +1,4 @@
-mpdnotify - A libnotify daemon for MPD/MPC
+mpdnotify - A libnotify daemon for MPD/MPC - JHop Fork
 ===============
 
 What is mpdnotify?
@@ -18,19 +18,6 @@ mpc - http://mpd.wikia.com/wiki/Client:Mpc
 libnotify
 imagemagick
 
-How do I get mpdnotify? (Arch Linux)
----------------------
-
-1. Install `mpdnotify-git` from the AUR. That's it!
-
-
-How do I get mpdnotify? (Others)
----------------------
-
-1. Download the latest source. Found at http://github.com/KittyKatt/mpd-libnotify/raw/master/mpdnotify
-2. In a terminal, make the file executable by doing the following: `chmod +x /path/to/mpdnotify`
-3. Then, either keep it there, or move it to somewhere in your $PATH to make it available without having to use the full path to the script.
-
 How to run mpdnotify
 ------------------------
 
@@ -44,9 +31,16 @@ Thanks brisbin33 for the bashnotify daemon template, which can be found:
 Here - http://bbs.archlinux.org/viewtopic.php?id=92351
 Here - http://pbrisbin.com:8080/bin/bashnotify
 
-Contact Me
+Contact Original Author
 ------------------------
 If you would like to suggest something new, inform me of an issue in the
 script, become part of the project, or talk to me about anything else,
 you can either email me at `kittykattATarchlinuxDOTus` or you can connect
 to my IRC server on SilverIRC at irc://kittykatt.silverirc.com/me0wz
+
+JHop Fork
+---------
+This version will contain modifications to have it survive mpd or mopidy
+restarts.
+
+Also adding some more logic around the pid file
